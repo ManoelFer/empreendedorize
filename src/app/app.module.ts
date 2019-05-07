@@ -22,6 +22,11 @@ import { RodapeComponent } from './telasiniciais/rodape/rodape.component';
 import { TopoComponent } from './telasiniciais/topo/topo.component';
 import { PginicialComponent } from './telasiniciais/pginicial/pginicial.component';
 import { MatPasswordStrengthModule } from '@angular-material-extensions/password-strength';
+import { CriarComponent } from './telasplano/criar/criar.component';
+import { ConsultarComponent } from './telasplano/consultar/consultar.component';
+import { AlterarComponent } from './telasplano/alterar/alterar.component';
+import { VincularComponent } from './telasplano/vincular/vincular.component';
+import { ExcluirComponent } from './telasplano/excluir/excluir.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +34,12 @@ import { MatPasswordStrengthModule } from '@angular-material-extensions/password
     HomeComponent,
     RodapeComponent,
     TopoComponent,
-    PginicialComponent
+    PginicialComponent,
+    CriarComponent,
+    ConsultarComponent,
+    AlterarComponent,
+    VincularComponent,
+    ExcluirComponent
     
   ],
   imports: [
